@@ -2,7 +2,7 @@ body {
     font-family: Tahoma, serif;
 }
 h1 {
-    color: #999999;
+    color: #31241d;
 }
 .learned-ok {
     color: green;
@@ -12,4 +12,26 @@ h1 {
 }
 .not-learned {
     color: red;
+}
+form [id="mainForm"]{
+   text-align: center;
+   background-color: bisque; 
+   margin-inline: 100px;
+   border-radius: 20px;
+}
+
+h4 {
+    color: blueviolet;
+    text-shadow: 2px 2px 4px rgb(146, 72, 216);
+}
+
+.name-box {
+    background-color: thistle;
+    border: 2px solid salmon;
+    transition: 0.2s;
+}
+
+input[type="button"] {
+    color: #000;
+    height: 50px;
 }
