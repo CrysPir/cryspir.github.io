@@ -8,7 +8,6 @@ h1 {
 form [id="mainForm"]{
    text-align: center;
    background-color: bisque; 
-   margin-inline: 100px;
    border-radius: 20px;
 }
 
