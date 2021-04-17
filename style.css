@@ -4,15 +4,7 @@ body {
 h1 {
     color: #31241d;
 }
-.learned-ok {
-    color: green;
-}
-.learning-in-progress {
-    color: orange;
-}
-.not-learned {
-    color: red;
-}
+
 form [id="mainForm"]{
    text-align: center;
    background-color: bisque; 
