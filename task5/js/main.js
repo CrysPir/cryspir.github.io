@@ -5,11 +5,11 @@
 			document.getElementById("startTest").style.visibility = 'hidden';
 
 			name = prompt("Введите имя");
-			while (!(/^([a-zA-Zа-яёА-ЯЁ])/.test(name))) {
+			while (!name.match(/^[a-zA-Zа-яёА-ЯЁ]+$/)) {
 				name = prompt("Введите имя");
 			}
-			age = Number(prompt("Введите возраст"));
-			while (!(/\d/.test(age))) {
+			age = prompt("Введите возраст");
+			while (!age.match( /^\d+$/)) {
 				age = prompt("Введите возраст");
 			}
 			sex = prompt("Введите пол");
@@ -17,7 +17,7 @@
 				sex = prompt("Введите пол");
 			}
 			surname = prompt("Введите фамилию");
-			while (!(/^([a-zA-Zа-яёА-ЯЁ])/.test(surname))) {
+			while (!surname.match(/^[a-zA-Zа-яёА-ЯЁ]+$/)) {
 				surname = prompt("Введите имя");
 			}
 			education = confirm("У вас есть высше образование?");
